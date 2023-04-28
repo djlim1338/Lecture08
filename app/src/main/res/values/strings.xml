@@ -6,11 +6,14 @@
     <string name="main_btn_exam03">예제3 (간단한 일기장(수정) page26)</string>
     <string name="main_btn_exam04">예제4 (raw page30)</string>
     <string name="main_btn_exam05">예제5 (SD card page37)</string>
-    <string name="main_btn_exam06"></string>
-    <string name="main_btn_exam07"></string>
-    <string name="main_btn_exam08"></string>
-    <string name="main_btn_exam09"></string>
-    <string name="main_btn_exam10"></string>
+    <string name="main_btn_exam06">예제6 (SD 디렉토리 생성 page41)</string>
+    <string name="main_btn_exam07">예제7 (디렉토리/파일 목록 page45)</string>
+    <string name="main_btn_exam07_1">예제7_1 (생성했던 파일들 목록)</string>
+    <string name="main_btn_exam08">예제8 (SD 이미지 뷰어 page49)</string>
+    <string name="main_btn_exam09">예제9</string>
+    <string name="main_btn_exam10">예제10</string>
+
+    <string name="main_btn_prac1">연습문제1 (일기 저장경로 변경)</string>
 
 
     <string name="exam02_title">간단 일기장</string>

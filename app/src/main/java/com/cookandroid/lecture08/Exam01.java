@@ -17,6 +17,7 @@ public class Exam01 extends AppCompatActivity {
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_exam01);
+        setTitle("예제1 (내장 메모리 파일 입출력 page6)");
 
         Button btnRead, btnWrite;
         btnRead = (Button) findViewById(R.id.exam01_btn_Read);

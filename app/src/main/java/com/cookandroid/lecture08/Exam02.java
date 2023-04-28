@@ -27,7 +27,7 @@ public class Exam02 extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_exam02);
-        setTitle("@string/exam02_title");
+        setTitle("예제2 (간단한 일기장 page10)");
 
         dp = (DatePicker) findViewById(R.id.datePicker1);
         edtDiary = (EditText) findViewById(R.id.edtDiary);

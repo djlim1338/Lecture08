@@ -5,6 +5,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.Toast;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -23,10 +24,15 @@ public class MainActivity extends AppCompatActivity {
         runMap.put(R.id.main_btn_exam03, Exam03.class);
         runMap.put(R.id.main_btn_exam04, Exam04.class);
         runMap.put(R.id.main_btn_exam05, Exam05.class);
+        runMap.put(R.id.main_btn_exam06, Exam06.class);
+        runMap.put(R.id.main_btn_exam07, Exam07.class);
+        runMap.put(R.id.main_btn_exam07_1, Exam07_1.class);
+        runMap.put(R.id.main_btn_exam08, Exam08.class);
     }
 
     public void btnChecked(View v){
-        openIntent(runMap.get(v.getId()));
+        try {openIntent(runMap.get(v.getId()));}
+        catch (Exception e){Toast.makeText(getApplication(), "오류 발생. :" + e.toString(), Toast.LENGTH_LONG).show();}
     }
 
     public void openIntent(Class openJava){

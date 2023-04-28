@@ -16,6 +16,7 @@ public class Exam04 extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_exam04);
+        setTitle("예제4 (raw page30)");
 
         Button btnRead;
         final EditText edtRaw;
